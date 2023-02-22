@@ -4,9 +4,9 @@ int32 body_id
 int32 tracking_status
 int32 gesture
 
-geometry_msgs/Point32 position2D # x,y in camera frame, z distance from camera
+geometry_msgs/Point32 position2d # x,y in camera frame, z distance from camera
 
-geometry_msgs/Point32 centerOfMass
+geometry_msgs/Point32 centerofmass
 
 #Position of interesting joints
 geometry_msgs/Point32 joint_position_head
