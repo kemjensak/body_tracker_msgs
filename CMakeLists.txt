@@ -17,4 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     geometry_msgs
     std_msgs)
 
+install(TARGETS
+  DESTINATION lib/${PROJECT_NAME})
+
 ament_package()

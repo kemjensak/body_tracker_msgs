@@ -1,2 +1,2 @@
 std_msgs/Header header
-BodyTracker[] detected_list
+body_tracker_msgs/BodyTracker[] detected_list
